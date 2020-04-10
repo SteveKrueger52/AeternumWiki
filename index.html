@@ -145,11 +145,17 @@ Error message and password prompt
 
 <li>$:/config/NewJournal/Tags</li>
 
+<li>$:/config/NewJournal/Text</li>
+
 <li>$:/config/NewJournal/Title</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home</li>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/refresh</li>
+
+<li>$:/config/PageControlButtons/Visibility/$:/plugins/tiddlywiki/markdown/new-markdown-button</li>
 
 <li>$:/config/Plugins/Disabled/$:/plugins/tiddlywiki/codemirror</li>
 
@@ -170,6 +176,8 @@ Error message and password prompt
 <li>$:/config/Toolbar/ButtonClass</li>
 
 <li>$:/config/Toolbar/Text</li>
+
+<li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/new-journal-here</li>
 
 <li>$:/core</li>
 
@@ -341,14 +349,29 @@ Error message and password prompt
 <div created="20200410005542508" modified="20200410005543539" title="$:/config/NewJournal/Tags">
 <pre>Session</pre>
 </div>
-<div created="20200410005548850" modified="20200410005552154" title="$:/config/NewJournal/Title">
-<pre>Session #: DDth MMM YYYY</pre>
+<div created="20200410012035149" modified="20200410012116303" title="$:/config/NewJournal/Text">
+<pre>Brief Recap: 
+
+NPCs Met:
+
+Plot Hooks:
+
+Major Acquisitions:</pre>
+</div>
+<div created="20200410005548850" modified="20200410011929751" title="$:/config/NewJournal/Title">
+<pre>&lt;&lt;currentTiddler&gt;&gt; Se\s\sion #: MMM DDth YYYY</pre>
 </div>
 <div created="20200410005324504" modified="20200410005324504" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
 <pre>show</pre>
 </div>
+<div created="20200410011155341" modified="20200410012217944" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal">
+<pre>hide</pre>
+</div>
 <div created="20200410005331387" modified="20200410005331387" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/refresh">
 <pre>show</pre>
+</div>
+<div created="20200410011151313" modified="20200410011151313" title="$:/config/PageControlButtons/Visibility/$:/plugins/tiddlywiki/markdown/new-markdown-button">
+<pre>hide</pre>
 </div>
 <div created="20200410010814579" modified="20200410010814579" title="$:/config/Plugins/Disabled/$:/plugins/tiddlywiki/codemirror">
 <pre>yes</pre>
@@ -379,6 +402,9 @@ Error message and password prompt
 </div>
 <div created="20200410005922419" modified="20200410005926487" title="$:/config/Toolbar/Text">
 <pre>no</pre>
+</div>
+<div created="20200410012225236" modified="20200410012225236" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/new-journal-here">
+<pre>show</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.21">
 <pre>{
@@ -10443,20 +10469,20 @@ Error message and password prompt
 <div created="20200410010856597" modified="20200410010859901" title="$:/state/plugin-info--896887961-$:/plugins/tiddlywiki/railroad">
 <pre>no</pre>
 </div>
-<div created="20200410005634343" modified="20200410005703699" title="$:/state/tab--1963855381">
+<div created="20200410005634343" modified="20200410012241752" title="$:/state/tab--1963855381">
 <pre>$:/themes/tiddlywiki/vanilla/themetweaks</pre>
 </div>
-<div created="20200410005601308" modified="20200410005601308" title="$:/state/tab--2112689675">
+<div created="20200410005601308" modified="20200410012139264" title="$:/state/tab--2112689675">
 <pre>$:/core/ui/ControlPanel/Advanced</pre>
 </div>
-<div created="20200410005603267" modified="20200410005626376" title="$:/state/tab--959111941">
-<pre>$:/core/ui/ControlPanel/TiddlerFields</pre>
+<div created="20200410005603267" modified="20200410012142286" title="$:/state/tab--959111941">
+<pre>$:/core/ui/ControlPanel/LoadedModules</pre>
 </div>
 <div created="20200410010614128" modified="20200410010620595" title="$:/state/tab-1342078386">
 <pre>$:/core/ui/ControlPanel/Plugins/Add/Themes</pre>
 </div>
-<div created="20200410004636042" modified="20200410011026732" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Saving</pre>
+<div created="20200410004636042" modified="20200410012152183" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
 <div created="20200410004638135" modified="20200410011027566" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/General</pre>
@@ -10464,10 +10490,10 @@ Error message and password prompt
 <div created="20200410005322570" modified="20200410010901227" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/Tools</pre>
 </div>
-<div created="20200410005641115" modified="20200410005702391" title="$:/state/tabs/controlpanel/toolbars-1345989671">
-<pre>$:/core/ui/ControlPanel/Toolbars/EditToolbar</pre>
+<div created="20200410005641115" modified="20200410012223248" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<pre>$:/core/ui/ControlPanel/Toolbars/ViewToolbar</pre>
 </div>
-<div created="20200410011023053" list="$:/ControlPanel GettingStarted" modified="20200410011023053" title="$:/StoryList">
+<div created="20200410011140827" list="$:/ControlPanel" modified="20200410011305906" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
